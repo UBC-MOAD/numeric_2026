@@ -1,14 +1,14 @@
 # conda environment description file for repo refactoring experiments for
-# 2024 edition of EOAS 511/ATSC 409 Numeric course
+# 2026 edition of EOAS 511/ATSC 409 Numeric course
 #
 # Create a conda environment for working on course notebooks and documentation,
 # and refactoring experiments with:
 #
-#   $ cd numeric_2024
+#   $ cd numeric_2026
 #   $ conda env create -f envs/environment.yaml
-#   $ conda activate numeric_2024
+#   $ conda activate numeric_2026
 
-name: numeric_2024
+name: numeric_2026
 
 channels:
   - conda-forge
@@ -16,7 +16,7 @@ channels:
 
 dependencies:
   # The basics
-  - python=3.12
+  - python=3.13  # to match default kernel on open.jupyter.ubc.ca
   - pip
 
   # To run Jupyter notebooks

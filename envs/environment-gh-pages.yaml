@@ -10,7 +10,7 @@ channels:
 
 dependencies:
   # The basics
-  - python=3.12
+  - python=3.13
   - pip
 
   # To build the website
