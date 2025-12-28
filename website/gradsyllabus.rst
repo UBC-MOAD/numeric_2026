@@ -103,7 +103,6 @@ There will be a ``grace space'' policy allowing you
 	to miss one laboratory exercise. The grace space policy
 	is to accommodate illness, ``away games'' for
 	athletes, conferences etc.
-[1]_
 
 Quizzes are done online, reflect the learning objectives of each lab
 and are assigned to ensure you do the reading with enough depth to
@@ -177,6 +176,7 @@ Project
 
 -  Time scale three and half weeks.
 
+**For due dates etc, please see the Detailed Schedule.**
 
 University Statement on Values and Policies
 -------------------------------------------
@@ -217,23 +217,31 @@ and experiences, and honours your identities. To help accomplish this:
 Academic Integrity
 ------------------
 
-Students are expected to learn material with honesty, integrity, and responsibility.
+**What is academic integrity?**
 
-  - Honesty means you should not take credit for the work of others,
-    and if you work with others you are careful to give them the credit they deserve.
-  - Integrity means you follow the rules you are given and are respectful towards others
-    and their attempts to do so as well.
-  - Responsibility means that you if you are unclear about the rules in a specific case
-    you should contact the instructor for guidance.
+The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity. At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required. This also means you should not cheat, copy, or mislead others about what is your work; nor should you help others to do the same. For example, it is prohibited to: share your past assignments and answers with other students; work with other students on an assignment when an instructor has not expressly given permission; or spread information through word of mouth, social media, websites, or other channels that subverts the fair evaluation of a class exercise, or assessment.
 
-The course will involve a mixture of individual and group work. We try
-to be flexible about this as my priority is for you to learn the
-material rather than blindly follow rules, but there are
-rules. Plagiarism (i.e. copying of others work) and cheating (not
-following the rules) can result in penalties ranging from zero on an
-assignment to failing the course.
+**Why is academic integrity important?**
 
-**For due dates etc, please see the Detailed Schedule.**
+As a student, your number one task is to learn new things. Just like your professors, however, you are a member of a university scholarly community. As a part of this community, you are responsible for engaging with existing knowledge and contributing ideas of your own. Academics—including you!—build knowledge through rigorous research that expands on the contributions of others, both in the faraway past and around the world today. This is called scholarship. Academic integrity, in short, means being an honest, diligent, and responsible scholar. This includes:
+
+• Accurately reporting the results of your research, e.g., when collecting data in a lab or running a computer simulation
+
+• Completing assignments independently or acknowledging collaboration when appropriate. Collaboration through group work is an effective way to learn. We will clearly indicate when you should collaborate, for example during in-class group work and on the projects.
+
+• Creating and expressing your own original ideas.
+
+• Engaging with the ideas of others, both past and present, in a variety of scholarly platforms such as research journals, books by academics, lectures, etc.
+• Explicitly acknowledging the sources of your knowledge, especially through accurate citation practices.
+
+**Collaboration and Group Work**
+
+Many course activities and some assignments are designed to be completed in groups, allowing you to work with your peers. Other assignments are individual, and you are expected to complete these by working individually and writing in your own words. It is unacceptable to have others write assignments on your behalf, to write assignments on others’ behalf, to copy other students’ work, or to allow other students to copy your work.
+
+**What happens when academic integrity is breached?**
+
+Violations of academic integrity (i.e., misconduct) includes any conduct by which a student gains or attempts to gain an unfair academic advantage or benefit thereby compromising the integrity of the academic process, or helping or attempting to help another person commit an act of academic misconduct or gain, or attempt to gain, an unfair academic advantage. Academic misconduct leads to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment and more serious consequences may apply if the matter is referred for consideration for academic discipline. Careful records are kept to monitor and prevent recurrences. Any instance of cheating or taking credit for someone else’s work, whether intentionally or unintentionally, can and often will result in at minimum a grade of zero for the assignment, and these cases will be reported to the Head of the Department of Earth, Ocean and Atmospheric Sciences and Associate Dean Students of the Faculty of Science.
+
 
 Not feeling well before class?
 -------------------------------
@@ -253,7 +261,4 @@ expect:
 • The other instructor will substitute
 • Your TA may help run a class
 • We may have a synchronous online session or two. If this happens, you will receive an email.
-
-.. [1]
-   For assignments with a late penalty, we will consider grades of >=85% as Excellent, 60-85\% as Satisfactory, and below 60% as Unsatisfactory.
 
