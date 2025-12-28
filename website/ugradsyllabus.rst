@@ -263,6 +263,12 @@ and experiences, and honours your identities. To help accomplish this:
   - We are all still learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to us about it
 
 
+Learning Analytics
+------------------
+
+Learning analytics includes the collection and analysis of data about learners to improve teaching and learning.  This course will be using Canvas, iPeer, Piazza and potentially Zoom, which capture data about your activity and provide information that can be used to improve the quality of teaching and learning. In this course, we may use analytics data to view overall class progress, and track individual students' progress in order to assess participation in the course.
+
+    
 Academic Integrity
 ------------------
 
@@ -290,6 +296,68 @@ Many course activities and some assignments are designed to be completed in grou
 **What happens when academic integrity is breached?**
 
 Violations of academic integrity (i.e., misconduct) includes any conduct by which a student gains or attempts to gain an unfair academic advantage or benefit thereby compromising the integrity of the academic process, or helping or attempting to help another person commit an act of academic misconduct or gain, or attempt to gain, an unfair academic advantage. Academic misconduct leads to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment and more serious consequences may apply if the matter is referred for consideration for academic discipline. Careful records are kept to monitor and prevent recurrences. Any instance of cheating or taking credit for someone else’s work, whether intentionally or unintentionally, can and often will result in at minimum a grade of zero for the assignment, and these cases will be reported to the Head of the Department of Earth, Ocean and Atmospheric Sciences and Associate Dean Students of the Faculty of Science.
+
+
+Sharing Course Materials
+------------------------
+
+The Labs themselves are available on a public website and as a github repository.  You are welcome to return to those web resources, or point your friends to them, at any time, now and into the future.  However, the materials posted on Canvas are for your use, during the course, only. We are working hard to provide all the materials you need to succeed in this course. In return, please respect our work. All assignment instructions, quiz questions and answers, discussion questions, announcements, PowerPoint slides, jupyter notebooks, audio/video recordings, Canvas modules, and any other materials provided to you by us on Canvas are for use in this course by students currently enrolled in ATSC 409 or EOSC 511. It is unacceptable to share any of these materials beyond our course, including by posting on file-sharing websites (e.g., CourseHero, Google Docs). It is unacceptable to copy and paste sentences from the course notes (e.g., definitions) into for-profit software (e.g., Quizlet) for use in studying. Respect our and previous instructors’ intellectual property, and follow copyright law.
+
+
+Generative Artificial Intelligence Tools
+----------------------------------------
+
+The term “GenAI” refers to the following tools as well as any other similar models that create content using sophisticated learning algorithms: ChatGPT, Claude, Copilot, Gemini, Llama, DeepSeek, and many translation tools. GenAI also refers to such tools that may be integrated into other services like Notion, Canva, and Grammarly.
+
+Students are permitted to use artificial intelligence tools, including generative AI, to gather information, review concepts or to help produce projects or mini-projects. However, students are ultimately accountable for the work they submit, and any content generated or supported by an artificial intelligence tool must be cited appropriately.
+
+For the Project and Miniprojects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you use any GenAI tools at any stage of the project or mini-projects -- including for ideas, drafting, editing, or proofreading -- you must declare your use. Add an extra page at the end of your submission explaining how you used GenAI, with enough detail for your instructor or TA to understand your contribution. Failure to fully disclose the use of GenAI is considered academic misconduct. Use the APA guidelines (https://guides.library.ubc.ca/GenAI/cite) when citing genAI. Failure to properly cite the use of GenAI is considered academic misconduct.
+
+GenAI and groups/teams: Group work is an important part of this course, however, it introduces additional challenges around GenAI use. Therefore, for the group project, the group must hold a discussion, with all members present, when beginning the work. During this discussion the group must agree on whether, how, and by whom GenAI tools will be used (to be documented in a shared file or email). All group members are expected to then communicate honestly with their group about their own use of GenAI. If it is determined that GenAI was used in a way that violates the assessment’s rules, the entire group may be held responsible.
+
+For the labs and in-class worksheets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+GenAI is Discouraged. The labs and in-class worksheets are important learning opportunities. We do assign marks to encourage you to complete them, but they are not marked “hard’ and do not have many marks attached. We believe you will learn more, and get more practise on your computing skills, if you do not use GenAI.
+
+
+Extreme Environmental Conditions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In-person, on campus activities may need to be cancelled due to issues such as weather conditions (e.g. snow). The most up-to-date information about cancellations will be posted on ubc.ca. The uncertainty that comes with extreme weather events can be stressful. Rest assured we will be flexible with assignment deadlines and communicate with you as early as we can. We will try to communicate with you about weather-related class cancellations through Canvas announcements.
+
+If an in-person class is cancelled due to weather or other environmental conditions, class will be held online. The Zoom link will be posted on Canvas. For those unable to participate in an online class at short notice, we will post the course materials on Canvas.
+
+
+Not feeling well before class?
+-------------------------------
+What to do if you’re sick: If you’re sick, it’s important that you stay home, no matter what you think
+you may be sick with (e.g., cold, flu, other). If you do miss class because of illness:
+
+• Make a connection early in the term to another student or a group of students in the class. You can
+help each other by sharing notes. If you don’t yet know anyone in the class, post on Piazza to connect
+with other students.
+
+• Consult the class resources on this website and on canvas. We will post the materials for each class day.
+
+• In this class, the marking scheme is intended to provide flexibility so that you can prioritize your health
+and are still be able to succeed. As such, there is a “grace space” policy allowing you to miss one in-class worksheet and one
+pre-class quiz with no penalty. 
+
+• If you are concerned that you will miss a particular key activity due to illness, contact us to discuss.
+
+If an instructor is sick: we will do our best to stay well, but if either of us is ill, here is what you can
+expect:
+
+• The other instructor will substitute
+
+• Your TA may help run a class
+
+• We may have a synchronous online session or two. If this happens, you will receive an email.
+
+
 
 
 .. [1]
