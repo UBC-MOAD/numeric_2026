@@ -28,7 +28,7 @@ Instructors
 | Rachel White, rwhite@eoas.ubc.ca
 | Susan Allen, sallen@eoas.ubc.ca
 
-See canvas course page for office hour locations
+See canvas course page for office hour times and locations
 
 Prerequisites
 -------------
@@ -59,7 +59,7 @@ for each lab.
 You can use a web-browser to examine the course exercises. Point your
 browser to:
 
-https://rhwhite.github.io/numeric_2024/notebook_toc.html
+https://ubc-moad.github.io/numeric_2026/notebook_toc.html
 
 Grades
 ------
@@ -86,34 +86,32 @@ available 1) through piazza (see CANVAS) so you can contact your classmates
 and ask them 2) during the weekly scheduled lab or 3) directly from the
 instructors during the scheduled office hours (see canvas). 
 
-Laboratory exercises will be graded as 'excellent', 'satisfactory' or 'unsatisfactory'.
+Laboratory exercises will be graded as ‘excellent’, 'good', ‘satisfactory’ or ‘unsatisfactory’.
 Your grade on canvas will be given as:
 
 1.0 = excellent
 
-0.8 = satisfactory
+0.8 = good
+
+0.6 = satisfactory
 
 0 = unsatisfactory
 
 Grades will be returned within a week of the submission deadline.
-If you receive a grade of 'satisfactory' or 'unsatisfactory' on your first submission,
-you will be given an opportunity to resubmit the problems you got incorrect to try to
-improve your grade. To get a score of 'excellent' on a resubmission, you must include 
-a full explanation of your understanding of why your initial answer was incorrect, and 
-what misconception, or mistake, you have corrected to get to your new answer. Resubmissions
-will be due exactly 2 weeks after the original submission deadline. It is your responsibility
-to manage the timing of the resubmission deadlines with the next laboratory exercise.
+If you receive a grade of `good', ‘satisfactory’ or ‘unsatisfactory’ on your first submission,
+you will be given an opportunity to resubmit the problems you got incorrect to try to improve
+your grade.  Note however, initial grades of `unsatisfactory' will not be increased to `excellent'.
+To get a score of ‘excellent’ or `good' on a resubmission, you must include a full explanation of
+your understanding of why your initial answer was incorrect, and what misconception, or mistake,
+you have corrected to get to your new answer. Resubmissions will be due exactly 2 weeks after
+the original submission deadline. It is your responsibility to manage the timing of the
+resubmission deadlines with the next laboratory exercise.
 
-Your final Laboratory Exercise grade will be calculated from the number of excellent, satisfactory
-and unsatisfactory grades you have from the 6 exercises:
-4 or more submissions at 'Excellent', none 'Unsatisfactory': 100%
-2 or more submissions at 'Excellent', none 'Unsatisfactory': 90%
-1 or fewer 'Excellent', none 'Unsatisfactory': 80%
-1 'Unsatisfactory' submission: 70%
-2 'Unsatisfactory' submissions: 60%
-3 'Unsatisfactory' submissions: 50%
-4 or more 'Unsatisfactory' submissions: 0%:
-[2]_
+There will be a ``grace space'' policy allowing you
+	to miss one laboratory exercise. The grace space policy
+	is to accommodate illness, ``away games'' for
+	athletes, conferences etc.
+
 
 The two mini-projects are longer assignments and slightly open-ended.
 These mini-projects can be worked with partners or alone.  Each
@@ -127,8 +125,7 @@ allowing you to miss one quiz.
 
 The in-class worksheets will be marked for a complete effort. There
 will be a “grace space” policy allowing you to miss one class
-worksheet. The grace space policy is to accommodate missed classes due
-to illness, “away games” for athletes etc. In-class paper worksheets
+worksheet. In-class worksheets
 are done as a group and are to handed in (one worksheet only per
 group) at the end of the worksheet time.
 
@@ -138,7 +135,7 @@ with the instructors.**
 
 Assignments, quizzes, mini-projects and the project are expected on
 time. Late ones will be marked and then the mark will be multiplied by
-:math:`(0.9)^{\rm (number\ of\ days\ or\ part\ days\ late)}`. 
+:math:`(0.95)^{\rm (number\ of\ days\ or\ part\ days\ late)}`. 
 
 
 Contents
@@ -154,7 +151,7 @@ covered in the quizzes.
 
    -  Estimate: 8 hours
 
-   -  Quiz #1 Objectives [3]_ pertaining to Lab 1
+   -  Quiz #1 Objectives [2]_ pertaining to Lab 1
 
    -  Assignment: See web.
 
@@ -228,6 +225,7 @@ covered in the quizzes.
 
    -  Project report
 
+**For due dates etc, please see the Detailed Schedule.**
 
 University Statement on Values and Policies
 -------------------------------------------
@@ -268,31 +266,35 @@ and experiences, and honours your identities. To help accomplish this:
 Academic Integrity
 ------------------
 
-Students are expected to learn material with honesty, integrity, and responsibility.
+**What is academic integrity?**
 
-  - Honesty means you should not take credit for the work of others,
-    and if you work with others you are careful to give them the credit they deserve.
-  - Integrity means you follow the rules you are given and are respectful towards others
-    and their attempts to do so as well.
-  - Responsibility means that you if you are unclear about the rules in a specific case
-    you should contact the instructor for guidance.
+The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity. At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required. This also means you should not cheat, copy, or mislead others about what is your work; nor should you help others to do the same. For example, it is prohibited to: share your past assignments and answers with other students; work with other students on an assignment when an instructor has not expressly given permission; or spread information through word of mouth, social media, websites, or other channels that subverts the fair evaluation of a class exercise, or assessment.
 
-The course will involve a mixture of individual and group work. We try
-to be flexible about this as my priority is for you to learn the
-material rather than blindly follow rules, but there are
-rules. Plagiarism (i.e. copying of others work) and cheating (not
-following the rules) can result in penalties ranging from zero on an
-assignment to failing the course.
+**Why is academic integrity important?**
 
+As a student, your number one task is to learn new things. Just like your professors, however, you are a member of a university scholarly community. As a part of this community, you are responsible for engaging with existing knowledge and contributing ideas of your own. Academics—including you!—build knowledge through rigorous research that expands on the contributions of others, both in the faraway past and around the world today. This is called scholarship. Academic integrity, in short, means being an honest, diligent, and responsible scholar. This includes:
 
-**For due dates etc, please see the Detailed Schedule.**
+• Accurately reporting the results of your research, e.g., when collecting data in a lab or running a computer simulation
+
+• Completing assignments independently or acknowledging collaboration when appropriate. Collaboration through group work is an effective way to learn. We will clearly indicate when you should collaborate, for example during in-class group work and on the projects.
+
+• Creating and expressing your own original ideas.
+
+• Engaging with the ideas of others, both past and present, in a variety of scholarly platforms such as research journals, books by academics, lectures, etc.
+• Explicitly acknowledging the sources of your knowledge, especially through accurate citation practices.
+
+**Collaboration and Group Work**
+
+Many course activities and some assignments are designed to be completed in groups, allowing you to work with your peers. Other assignments are individual, and you are expected to complete these by working individually and writing in your own words. It is unacceptable to have others write assignments on your behalf, to write assignments on others’ behalf, to copy other students’ work, or to allow other students to copy your work.
+
+**What happens when academic integrity is breached?**
+
+Violations of academic integrity (i.e., misconduct) includes any conduct by which a student gains or attempts to gain an unfair academic advantage or benefit thereby compromising the integrity of the academic process, or helping or attempting to help another person commit an act of academic misconduct or gain, or attempt to gain, an unfair academic advantage. Academic misconduct leads to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment and more serious consequences may apply if the matter is referred for consideration for academic discipline. Careful records are kept to monitor and prevent recurrences. Any instance of cheating or taking credit for someone else’s work, whether intentionally or unintentionally, can and often will result in at minimum a grade of zero for the assignment, and these cases will be reported to the Head of the Department of Earth, Ocean and Atmospheric Sciences and Associate Dean Students of the Faculty of Science.
+
 
 .. [1]
    If you have PDE’s Lab 7 is strongly recommended, whereas if you do
    not have PDE’s do Lab 6
 
 .. [2]
-   For assignments with a late penalty, we will consider grades of >=85% as Excellent, 60-85\% as Satisfactory, and below 60% as Unsatisfactory.
-
-.. [3]
    Objectives is an older term for Learning Goals
