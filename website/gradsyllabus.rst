@@ -19,13 +19,13 @@ Instructors
 | Rachel White, rwhite@eoas.ubc.ca
 | Susan Allen, sallen@eoas.ubc.ca
 
-See canvas course page for office hour locations
+See canvas course page for office hour times and locations
 
 Prerequisites
 -------------
 
-The course assumes a mathematics background including vector calculus
-and linear algebra. Students weak in either of these areas will be
+The course assumes a mathematics background including vector calculus, linear algebra
+and partial differential equations. Students weak in either of these areas will be
 directed to readings to strengthen their knowledge. Programming
 experience is greatly recommended.
 
@@ -49,7 +49,7 @@ and time to read and work on the laboratories.
 You can use a web-browser to examine the course exercises. Point your
 browser to:
 
-https://rhwhite.github.io/numeric_2024/notebook_toc.html
+https://ubc-moad.github.io/numeric_2026/notebook_toc.html
 
 
 Grades
@@ -78,33 +78,31 @@ available 1) through piazza (see CANVAS) so you can contact your classmates
 and ask them 2) during the weekly scheduled lab or 3) directly from the
 instructors during the scheduled office hours (see canvas).
 
-Laboratory exercises will be graded as 'excellent', 'satisfactory' or 'unsatisfactory'.
+Laboratory exercises will be graded as ‘excellent’, 'good', ‘satisfactory’ or ‘unsatisfactory’.
 Your grade on canvas will be given as:
 
 1.0 = excellent
 
-0.8 = satisfactory
+0.8 = good
+
+0.6 = satisfactory
 
 0 = unsatisfactory
 
 Grades will be returned within a week of the submission deadline.
-If you receive a grade of 'satisfactory' or 'unsatisfactory' on your first submission,
-you will be given an opportunity to resubmit the problems you got incorrect to try to
-improve your grade. To get a score of 'excellent' on a resubmission, you must include
-a full explanation of your understanding of why your initial answer was incorrect, and
-what misconception, or mistake, you have corrected to get to your new answer. Resubmissions
-will be due exactly 2 weeks after the original submission deadline. It is your responsibility
-to manage the timing of the resubmission deadlines with the next laboratory exercise.
+If you receive a grade of `good', ‘satisfactory’ or ‘unsatisfactory’ on your first submission,
+you will be given an opportunity to resubmit the problems you got incorrect to try to improve
+your grade.  Note however, initial grades of `unsatisfactory' will not be increased to `excellent'.
+To get a score of ‘excellent’ or `good' on a resubmission, you must include a full explanation of
+your understanding of why your initial answer was incorrect, and what misconception, or mistake,
+you have corrected to get to your new answer. Resubmissions will be due exactly 2 weeks after
+the original submission deadline. It is your responsibility to manage the timing of the
+resubmission deadlines with the next laboratory exercise.
 
-Your final Laboratory Exercise grade will be calculated from the number of excellent, satisfactory
-and unsatisfactory grades you have from the 7 exercises:
-5 or more submissions at 'Excellent', none 'Unsatisfactory': 100%
-3 or more submissions at 'Excellent', none 'Unsatisfactory': 90%
-1 or fewer 'Excellent', none 'Unsatisfactory': 80%
-1 'Unsatisfactory' submission: 70%
-2 'Unsatisfactory' submissions: 60%
-3 'Unsatisfactory' submissions: 50%
-4 or more 'Unsatisfactory' submissions: 0%:
+There will be a ``grace space'' policy allowing you
+	to miss one laboratory exercise. The grace space policy
+	is to accommodate illness, ``away games'' for
+	athletes, conferences etc.
 [1]_
 
 Quizzes are done online, reflect the learning objectives of each lab
@@ -115,8 +113,7 @@ allowing you to miss one quiz.
 
 The in-class worksheets will be marked for a complete effort. There
 will be a “grace space” policy allowing you to miss one class
-worksheet. The grace space policy is to accommodate missed classes due
-to illness, “away games” for athletes etc. In-class paper worksheets
+worksheet. In-class worksheets
 are done as a group and are to handed in (one worksheet only per
 group) at the end of the worksheet time.
 
@@ -125,7 +122,7 @@ group) at the end of the worksheet time.
 
 Assignments, quizzes, mini-projects and the project are expected on
 time. Late mini-projects and projects will be marked and then the mark will be multiplied by
-:math:`(0.9)^{\rm (number\ of\ days\ or\ part\ days\ late)}`.
+:math:`(0.95)^{\rm (number\ of\ days\ or\ part\ days\ late)}`.
 
 Set Laboratories
 ----------------
