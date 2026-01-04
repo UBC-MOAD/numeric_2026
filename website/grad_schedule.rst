@@ -60,7 +60,8 @@ Note that many classes have a pre-class quiz due BEFORE the class, and most assi
 | 10 (Mon) | Mar 16   | Optional Labs        |                        |
 |          |          | reading quizzes      |                        |
 +----------+----------+----------------------+------------------------+
-| 10 (Fri) | Mar 20   |                      | Optional labs assignments |
+| 10 (Fri) | Mar 20   |                      | Optional labs          |
+|          |          |                      | assignments            |
 +----------+----------+----------------------+------------------------+
 +----------+----------+----------------------+------------------------+
 | 11 (Mon) | Mar 23   | Project work         |                        |
