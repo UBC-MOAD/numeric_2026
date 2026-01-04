@@ -52,9 +52,9 @@ Note that many classes have a pre-class quiz due BEFORE the class, and most assi
 | 8 (Fri)  | Mar 6    |                      | Mini-project 2         | 
 +----------+----------+----------------------+------------------------+
 +----------+----------+----------------------+------------------------+
-| 9 (Mon)  | Mar 9    | Lab 4 reading quiz   | Project proposal       |
+| 9 (Mon)  | Mar 9    |                      | Project proposal       |
 +----------+----------+----------------------+------------------------+
-| 9 (Fri)  | Mar 13   |                      | iPeer evaluion 1       |
+| 9 (Fri)  | Mar 13   |                      | iPeer evaluation 1     |
 +----------+----------+----------------------+------------------------+
 +----------+----------+----------------------+------------------------+
 | 10 (Mon) | Mar 16   | Lab 6/7a reading quiz|                        |
