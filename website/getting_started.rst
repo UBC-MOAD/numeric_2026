@@ -7,6 +7,5 @@ Getting started
 
     Python introduction <https://phaustin.github.io/pyman>
 
-    Next steps <getting_started/python_noshell.ipynb>
+    Additional Resources <getting_started/python_noshell.ipynb>
 
-    VS code notes <getting_started/vscode.ipynb>

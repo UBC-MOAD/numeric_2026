@@ -16,7 +16,9 @@
 # ---
 
 # %% [markdown]
-# # Books and tutorials
+# # Other Resources #
+#
+# ## Books and tutorials
 #
 #   - We will be referring to Phil Austin's version of  David Pine's Introduction to Python:
 #     http://phaustin.github.io/pyman.  The notebooks for each chapter are included
@@ -68,5 +70,52 @@
 #         version](http://interactivepython.org/courselib/static/thinkcspy/index.html)
 #       - [Think Stats](http://greenteapress.com/wp/think-stats-2e/)
 #       - [Think Bayes](http://greenteapress.com/wp/think-bayes/)
+
+# %% [markdown]
+# ## Optional: VScode ##
+#
+# If you are more familiar with jupyter notebooks, you may wish to explore running them on your laptop (instead of in Jupyter Open). VSCode is a code editor, which many people find helps them code better, debug faster, and keep good coding practices. Some of the strengths of VSCode for editing notebooks include its real editor powers: spellchecking and multiple corrections. We will not go through VSCode in much detail in this course, but here are some resources if you are interested, and you are welcome to ask us: 
+#
+# ### Install vscode from https://code.visualstudio.com/download
+#
+# Install the command line version as well. On windows, this should be done as part of the install.  On MacOS, you need to open the vscode command pallette (&#8984;shift-P) and type
+# ```
+# Shell Command: Install code in PATH
+# ```
+#
+# once that is done, you should be able to start vscode from the command line in a particular
+# folder by typing:
+#
+# ```
+# code .
+# ```
+#
+# ### Suggested Extensions 
+#
+# On the left you will see four boxes, one moved up.  Here you can add extensions.  You will need some just to run notebooks etc.  We suggest:
+# - Python
+# - Pylance (this one installed with Python for me)
+# - Jupyter (again came with Python for me)
+# - C/C++
+# - Clipboard
+# - Code Spell Checker
+# - Gitlens
+#
+# ### Notebooks 
+#
+# The notebooks (labs) for this course are not VSCode ready - if you do use VScode for the labs, you will see non-rendered pieces.  Technology changes and we are always behind.
+#
+# ###  Features 
+#
+# Some of the super features of editing in VScode including:
+# - code colouring
+# - built in information on functions
+# - click on variable, see everywhere it is used
+# - checks alignment (whitespace)
+# - marks changes you've made
+# - typo in variable leading to undefined
+# - undefined function: colour changes to white
+# - making a change, then using the git integration to save, stage and commit
+#
 
 # %%
