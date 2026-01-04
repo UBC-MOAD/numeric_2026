@@ -1,12 +1,14 @@
 Dates for Undergraduate Class (ATSC 409)
 ========================================
 
+Note that many classes have a pre-class quiz due BEFORE the class, and most assignments are due on Fridays.
+
 +----------+----------+----------------------+------------------------+
 | Week     | Date     | Pre/in-class         |      Assignment        |
 +==========+==========+======================+========================+
-| 1 (Mon)  | Jan 4    |                      | Pre-class survey       |          
+| 1 (Sun)  | Jan 4    |                      | Pre-class survey       |          
 +----------+----------+----------------------+------------------------+
-| 1 (Fri)  | Jan 5    | 1st class            |                        |
+| 1 (Mon)  | Jan 5    | 1st class            |                        |
 +----------+----------+----------------------+------------------------+
 | 2 (Mon)  | Jan 12   | Lab 1 reading quiz   |                        |
 +----------+----------+----------------------+------------------------+
