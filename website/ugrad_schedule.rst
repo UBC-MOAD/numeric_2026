@@ -3,6 +3,14 @@ Dates for Undergraduate Class (ATSC 409)
 
 (More details to be added shortly)
 
+
++----------+----------+
+| Header 1 | Header 2 |
++==========+==========+
+| 1        | one      |
++----------+----------+
+| 2        | two      |
++----------+----------+
 ========= =========== =============== ==================
 Week 	    Date       Pre/In class       Assignments
 ========= =========== =============== ==================
