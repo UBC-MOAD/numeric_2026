@@ -35,11 +35,11 @@ def interpol_f(pn):
      act = np.zeros((npts,))
 
      for i in range(pn):
-         x[i] = -5 + i*dx
+         x[i] = -5.4 + i*dx
          y[i] = x[i]**3 - 5 * x[i]
 
      for i in range(npts):
-         xx[i] = -5 + i*ddx
+         xx[i] = -5.4 + i*ddx
          act[i] = xx[i]**3 - 5 * xx[i]
 
      interpolater = interp1d(x, y, kind='cubic')
