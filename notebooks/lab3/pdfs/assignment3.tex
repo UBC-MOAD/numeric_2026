@@ -13,7 +13,7 @@
 Hand in your assignments on Canvas by uploading a single pdf.
 
 \begin{itemize}
-\item ATSC 409: Hand-in answers to all parts of Problem 1from the Lab.
+\item ATSC 409: Hand-in answers to all parts of Problem 1 from the Lab.
   
 \item EOSC 511/ATSC 506:  Hand-in an answer to the Problem ( \#5) below
 \end{itemize}
@@ -28,14 +28,14 @@ where $S$ is the concentration of smoke, $\kappa$ is the rate of diffusion of sm
 \begin{enumerate}
 \item Write the appropriate equation for the steady state.
 \item Discretize the hall into $N$ segments and write the equation for the steady state as a matrix equation.
-\item Taking $\kappa = 0.05$ m$^2$ s$^{-1}$, $\gamma = (3600$ s$)^{-1}$, and 
+\item Take $\kappa = 0.05$ m$^2$ s$^{-1}$, $\gamma = (3600$ s$)^{-1}$, and 
 \begin{equation}
 \alpha(x) = \left\{ \begin{array}{cl}
-\alpha_o,& x=x_*\\
+\alpha_o/\Delta x,& x=x_*\\
 0, & x \ne x_*\\
 \end{array} \right.
 \end{equation}
-  where you can choose the point $x_*$ and $\alpha_o = 0.005$ kg m$^{-1}$ s$^{-1}$,  find the solution (using python) for your choice of $N$ between 5 and 15.  Take the length of the hall as 20~m.
+where you can choose the point $x_*$, $\alpha_o = 0.005$ kg m$^{-1}$ s$^{-1}$ and $\Delta x = L/N$ is your grid spacing. Find the solution (using python) for your choice of $N$ between 5 and 15.  Take the length of the hall as $L=20~m$.
 \item What is the condition number of the matrix? (using python)
 \item If $\gamma$ is 0 what is the condition number of the matrix?  (using python) Physically why is there no single solution?
 \item If $\gamma$ is 0 and $\alpha$ is 0, why physically is there no single solution?
