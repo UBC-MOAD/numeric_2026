@@ -38,7 +38,7 @@ def interactive1(grid, ngrid, dt, T, small=False):  # return eta
     x, y, spatial = findforcing(L, dx, ngrid)
 
 # set up temporal scale T is total run time
-    ntime = np.int(T/dt)
+    ntime = int(T/dt)
 
 # initialize
     u, v, eta, up, vp, etap = initial(ngrid)
@@ -206,7 +206,7 @@ def plotit(grid, ngrid, dx, x, y, u, v, eta):
     for i in range(2):
         ax[1,i].set_xlabel('x (km)')
         ax[i,0].set_ylabel('y (km)')
-    ax[0,0].set_title('$\eta$')
+    ax[0,0].set_title(r'$\eta$')
     ax[0,1].set_title('velocity')
     ax[1,0].set_title('u')
     ax[1,1].set_title('v')

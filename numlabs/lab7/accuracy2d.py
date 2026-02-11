@@ -37,7 +37,7 @@ def main(arg):
     plt.xlim((-np.pi, np.pi))
     plt.legend(('Actual', 'Grid 1', 'Grid 2'), loc='upper center')
     plt.xlabel('$k d$')
-    plt.ylabel('$\omega / f$')
+    plt.ylabel(r'$\omega / f$')
     plt.title('$d / R = %.3f$' % doR)
     plt.show()
 
