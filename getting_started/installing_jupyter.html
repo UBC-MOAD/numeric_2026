@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Student installs &#8212; Numeric course 22.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="../_static/mozilla.css?v=18700206" />
+    <link rel="stylesheet" type="text/css" href="../_static/nbsphinx-code-cells.css?v=2aa19091" />
+    <script src="../_static/documentation_options.js?v=f6d600a2"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <link rel="icon" href="../_static/UBC_EOAS_favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+<!-- remove Mozilla link tab from upper right corner of page -->
+
+
+    <div class="document">
+  <div class="documentwrapper">
+    
+    <div class="sphinxsidebar">
+        <nav>
+        <h2><a href="../index.html">Numeric course</a></h2>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ugradsyllabus.html">Undergrad Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ugrad_schedule.html">Undergrad Detailed Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../gradsyllabus.html">Grad Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../grad_schedule.html">Grad Detailed Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../texts.html">Optional texts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../notebook_toc.html">Labs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rubrics.html">Rubrics</a></li>
+</ul>
+
+        </nav>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+    </div>
+    <div class="bodywrapper">
+      <div class="body">
+        
+  <section id="Student-installs">
+<h1>Student installs<a class="headerlink" href="#Student-installs" title="Link to this heading">¶</a></h1>
+<p><strong>If you already have conda or anaconda installed, skip to ``Git install`` below</strong></p>
+<section id="For-MacOS-new-installs">
+<h2>For MacOS new installs<a class="headerlink" href="#For-MacOS-new-installs" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Download miniconda from <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a> – choose the correct <code class="docutils literal notranslate"><span class="pre">Miniconda3</span> <span class="pre">MacOSX</span> <span class="pre">64-bit</span> <span class="pre">pkg</span></code> file for your Mac (Intel chip or new M1/M2 Silicon) from the menu and run it, agreeing to the licences and accepting all defaults. You should install for “just me”</p></li>
+<li><p>To test your installation, open a fresh terminal window and at the prompt type <code class="docutils literal notranslate"><span class="pre">which</span> <span class="pre">conda</span></code> (unless you are using zsh. In that case use <code class="docutils literal notranslate"><span class="pre">whence</span> <span class="pre">-p</span> <span class="pre">conda</span></code>). You should see something resembling the following output, with your username instead of <code class="docutils literal notranslate"><span class="pre">phil</span></code>:</p></li>
+</ol>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>% which conda
+/Users/phil/opt/miniconda3/bin/conda
+</pre></div>
+</div>
+</section>
+<section id="For-Windows-new-installs">
+<h2>For Windows new installs<a class="headerlink" href="#For-Windows-new-installs" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Download miniconda from <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a> – choose the <code class="docutils literal notranslate"><span class="pre">Miniconda3</span> <span class="pre">Windows</span> <span class="pre">64-bit</span></code>. download from the menu and run it, agreeing to the licences and accepting all defaults.</p></li>
+</ol>
+<p>The installer should suggest installing in a path that looks like:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>C:\Users\phil\Miniconda3
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Once the install completes hit the windows key and start typing <code class="docutils literal notranslate"><span class="pre">anaconda</span></code>. You should see a shortcut that looks like:</p></li>
+</ol>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Anaconda Powershell Prompt
+(Miniconda3)
+</pre></div>
+</div>
+<p><strong>Note that Windows comes with two different terminals ``cmd`` (old) and ``powershell`` (new). Always select the powershell version of the anaconda terminal</strong></p>
+<ol class="arabic simple" start="3">
+<li><p>Select the short cut. If the install was successful you should see something like:</p></li>
+</ol>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>(base) (Miniconda3):Users/phil&gt;
+</pre></div>
+</div>
+<p>with your username substituted for phil.</p>
+<p>Some useful troubleshooting websites if you have issues getting conda installed on windows: <a class="reference external" href="https://stackoverflow.com/questions/54501167/anaconda-and-git-bash-in-windows-conda-command-not-found">https://stackoverflow.com/questions/54501167/anaconda-and-git-bash-in-windows-conda-command-not-found</a> <a class="reference external" href="https://stackoverflow.com/questions/44597662/conda-command-is-not-recognized-on-windows-10">https://stackoverflow.com/questions/44597662/conda-command-is-not-recognized-on-windows-10</a></p>
+</section>
+<section id="Git-install">
+<h2>Git install<a class="headerlink" href="#Git-install" title="Link to this heading">¶</a></h2>
+<p>Inside your powershell or MacOs terminal, install git using conda:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>conda install git
+</pre></div>
+</div>
+<p>and then set it up</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>git config --global user.name &quot;Phil&quot;
+git config --global user.email phil@example.com
+</pre></div>
+</div>
+</section>
+<section id="Github-account">
+<h2>Github account<a class="headerlink" href="#Github-account" title="Link to this heading">¶</a></h2>
+<p>To use the course materials and to work collaboratively for the project, you will need a github account. Sign up for a free account at <a class="reference external" href="https://github.com">https://github.com</a> if you don’t already have one - you will need to use the same address you configured git for above.</p>
+<p>Once you have your github account, you will need to set up a secure way to connect. If you think you might use github a lot, we recommend setting up an ssh connection - this is a longer set-up process, but then quicker each time you want to connect to git. Follow the instructions here:</p>
+<p><a class="reference external" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">https://docs.github.com/en/authentication/connecting-to-github-with-ssh</a></p>
+<p>A quicker set-up is to create a Personal Access Token. Follow the instructions here: <a class="reference external" href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic">https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic</a></p>
+<p>Once you have a personal access token, you can enter it instead of your password when performing Git operations over HTTPS (see <a class="reference external" href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-personal-access-token-on-the-command-line">https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-personal-access-token-on-the-command-line</a>).</p>
+</section>
+<section id="Fork-the-course-repository-into-your-github-account">
+<h2>Fork the course repository into your github account<a class="headerlink" href="#Fork-the-course-repository-into-your-github-account" title="Link to this heading">¶</a></h2>
+<p>Now go to the course website at <a class="reference external" href="https://github.com/rhwhite/numeric_2024">https://github.com/rhwhite/numeric_2024</a> and fork the repository. The ‘fork’ button is on the upper right. This creates a ‘fork’ or copy of the current status of the repository in your account.</p>
+<p>You now have your own fork of the course repository and should be taken to that page. Its name will be YourGitHubId/numeric_2024</p>
+</section>
+<section id="Setting-up-the-course-repository">
+<h2>Setting up the course repository<a class="headerlink" href="#Setting-up-the-course-repository" title="Link to this heading">¶</a></h2>
+<p>In the terminal, change directories to your home directory (called <code class="docutils literal notranslate"><span class="pre">~</span></code> for short) and make a new directory called <code class="docutils literal notranslate"><span class="pre">repos</span></code> to hold the course notebook repository. Change into <code class="docutils literal notranslate"><span class="pre">repos</span></code> and clone the course (do change YourGitHubId to your actual git hub id):</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd ~
+mkdir repos
+cd repos
+git clone https://github.com/YourGitHubId/numeric_2024.git
+</pre></div>
+</div>
+</section>
+<section id="Creating-the-course-environment">
+<h2>Creating the course environment<a class="headerlink" href="#Creating-the-course-environment" title="Link to this heading">¶</a></h2>
+<p>In the terminal, execute the following commands:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd numeric_2024
+conda env create -f envs/environment.yaml
+conda activate numeric_2024
+</pre></div>
+</div>
+</section>
+<section id="Opening-the-notebook-folder-and-working-with-lab-1">
+<h2>Opening the notebook folder and working with lab 1<a class="headerlink" href="#Opening-the-notebook-folder-and-working-with-lab-1" title="Link to this heading">¶</a></h2>
+<p>To make it possible to pull down changes to the repository (for example, as I write this section only lab1 and lab2 are available) you need to work in a copy of the notebook. So always copy the notebook to a new name. See below an example for lab1. I suggest you use your name rather than phil!</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd ~/repos/numeric_2024/notebooks
+cp lab1/01-lab1.ipynb lab1/phil-lab1.ipynb
+jupyter lab
+</pre></div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+</div>
+</section>
+</section>
+
+
+      </div>
+    </div>
+  </div>
+      <div class="clearer"></div>
+    </div>
+  
+
+   
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 1995 – present.
+      Last updated on 14-Feb-2026.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div> <script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js"></script> 
+  <!-- remove loading of Mozilla tabzilla.js script -->
+
+  </body>
+</html>

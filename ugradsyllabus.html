@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Undergraduate Numerical Techniques for Atmosphere, Ocean and Earth Scientists: ATSC 409 &#8212; Numeric course 22.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/mozilla.css?v=18700206" />
+    <script src="_static/documentation_options.js?v=f6d600a2"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>window.MathJax = {"tex": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true}, "options": {"ignoreHtmlClass": "tex2jax_ignore|mathjax_ignore|document", "processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <link rel="icon" href="_static/UBC_EOAS_favicon.ico"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Dates for Undergraduate Class (ATSC 409)" href="ugrad_schedule.html" />
+    <link rel="prev" title="Numerical Techniques for Atmosphere, Ocean and Earth Scientists" href="index.html" /> 
+  </head><body>
+<!-- remove Mozilla link tab from upper right corner of page -->
+
+
+    <div class="document">
+  <div class="documentwrapper">
+    
+    <div class="sphinxsidebar">
+        <nav>
+        <h2><a href="index.html">Numeric course</a></h2>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Undergrad Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ugrad_schedule.html">Undergrad Detailed Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gradsyllabus.html">Grad Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="grad_schedule.html">Grad Detailed Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="texts.html">Optional texts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebook_toc.html">Labs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rubrics.html">Rubrics</a></li>
+</ul>
+
+        </nav>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+    </div>
+    <div class="bodywrapper">
+      <div class="body">
+        
+  <section id="undergraduate-numerical-techniques-for-atmosphere-ocean-and-earth-scientists-atsc-409">
+<h1>Undergraduate Numerical Techniques for Atmosphere, Ocean and Earth Scientists: ATSC 409<a class="headerlink" href="#undergraduate-numerical-techniques-for-atmosphere-ocean-and-earth-scientists-atsc-409" title="Link to this heading">¶</a></h1>
+<section id="calendar-entry">
+<h2>Calendar Entry<a class="headerlink" href="#calendar-entry" title="Link to this heading">¶</a></h2>
+<p>Web-based introduction to the practical numerical solution of ordinary
+and partial differential equations including considerations of stability
+and accuracy. Credit will not be granted for both ATSC 409 and ATSC
+506/EOSC 511.</p>
+</section>
+<section id="course-purpose">
+<h2>Course Purpose<a class="headerlink" href="#course-purpose" title="Link to this heading">¶</a></h2>
+<p>The students completing this course will be able to apply standard
+numerical solution techniques to the solution of problems such as waves,
+advection, population growth.</p>
+</section>
+<section id="meeting-times">
+<h2>Meeting Times<a class="headerlink" href="#meeting-times" title="Link to this heading">¶</a></h2>
+<p>See canvas course page for scheduled class times and location</p>
+</section>
+<section id="instructors">
+<h2>Instructors<a class="headerlink" href="#instructors" title="Link to this heading">¶</a></h2>
+<div class="line-block">
+<div class="line">Rachel White, <a class="reference external" href="mailto:rwhite&#37;&#52;&#48;eoas&#46;ubc&#46;ca">rwhite<span>&#64;</span>eoas<span>&#46;</span>ubc<span>&#46;</span>ca</a></div>
+<div class="line">Susan Allen, <a class="reference external" href="mailto:sallen&#37;&#52;&#48;eoas&#46;ubc&#46;ca">sallen<span>&#64;</span>eoas<span>&#46;</span>ubc<span>&#46;</span>ca</a></div>
+</div>
+<p>See canvas course page for office hour times and locations</p>
+</section>
+<section id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading">¶</a></h2>
+<p>Solution of Ordinary Differential Equations (MATH 215 or equivalent) AND
+a programming course. Partial Differential Equations (Math 316 or Phys
+312) is recommended. <a class="footnote-reference brackets" href="#id15" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p>
+</section>
+<section id="course-structure">
+<h2>Course Structure<a class="headerlink" href="#course-structure" title="Link to this heading">¶</a></h2>
+<p>This course is not lecture based. The course is an interactive, computer
+based laboratory course. The computer will lead you through the
+laboratory (like a set of lab notes) and you will answer problems most
+of which use the computer. The course consists of three parts. A set of
+interactive, computer based laboratory exercises, two mini-projects and
+a final project.</p>
+<p>During the meeting times, there will be group worksheets to delve
+into the material, brief presentations to help with technical
+matters, time to ask questions in a group format and also individually
+and time to read and work on the laboratories.</p>
+<p>It will be important to read the labs before class to do the
+worksheets.  To encourage good practices there are quizzes on canvas
+for each lab.</p>
+<p>You can use a web-browser to examine the course exercises. Point your
+browser to:</p>
+<p><a class="reference external" href="https://ubc-moad.github.io/numeric_2026/notebook_toc.html">https://ubc-moad.github.io/numeric_2026/notebook_toc.html</a></p>
+</section>
+<section id="grades">
+<h2>Grades<a class="headerlink" href="#grades" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Laboratory Exercises 20% (individual with collaboration, excellent/satisfactory/unsatisfactory grading)</p></li>
+<li><p>Mini-projects 30% (individual with collaboration)</p></li>
+<li><p>Quizzes 5% (individual)</p></li>
+<li><p>Worksheets 5% (group)</p></li>
+<li><p>Project Proposal 5%  (group)</p></li>
+<li><p>Project 30% (group)</p></li>
+<li><p>Project Oral Presentation 5% (group)</p></li>
+</ul>
+</div></blockquote>
+<p>There will be 6 assigned exercise sets or ‘Laboratory Exercises’ based on the labs.
+Note that these are not necessarily the same as the problems in the
+lab and will generally be a much smaller set.  Laboratory exercises
+can be worked with partners or alone. Each student must upload their
+own solution in their own words.</p>
+<p>The laboratory exercise sets are to be uploaded to the course CANVAS page.
+Sometimes, rather than a large series of plots, you may wish to
+include a summarizing table. If you do not understand the scope of a
+problem, please ask. Help with the labs is
+available 1) through piazza (see CANVAS) so you can contact your classmates
+and ask them 2) during the weekly scheduled lab or 3) directly from the
+instructors during the scheduled office hours (see canvas).</p>
+<p>Laboratory exercises will be graded as ‘excellent’, ‘good’, ‘satisfactory’ or ‘unsatisfactory’.
+Your grade on canvas will be given as:</p>
+<p>1.0 = excellent</p>
+<p>0.8 = good</p>
+<p>0.6 = satisfactory</p>
+<p>0 = unsatisfactory</p>
+<p>Grades will be returned within a week of the submission deadline.
+If you receive a grade of <a href="#id2"><span class="problematic" id="id3">`</span></a>good’, ‘satisfactory’ or ‘unsatisfactory’ on your first submission,
+you will be given an opportunity to resubmit the problems you got incorrect to try to improve
+your grade.  Note however, initial grades of <a href="#id4"><span class="problematic" id="id5">`</span></a>unsatisfactory’ will not be increased to <a href="#id6"><span class="problematic" id="id7">`</span></a>excellent’.
+To get a score of ‘excellent’ or <a href="#id8"><span class="problematic" id="id9">`</span></a>good’ on a resubmission, you must include a full explanation of
+your understanding of why your initial answer was incorrect, and what misconception, or mistake,
+you have corrected to get to your new answer. Resubmissions will be due exactly 2 weeks after
+the original submission deadline. It is your responsibility to manage the timing of the
+resubmission deadlines with the next laboratory exercise.</p>
+<dl class="simple">
+<dt>There will be a <a href="#id10"><span class="problematic" id="id11">``</span></a>grace space’’ policy allowing you</dt><dd><p>to miss one laboratory exercise. The grace space policy
+is to accommodate illness, <a href="#id12"><span class="problematic" id="id13">``</span></a>away games’’ for
+athletes, conferences etc.</p>
+</dd>
+</dl>
+<p>The two mini-projects are longer assignments and slightly open-ended.
+These mini-projects can be worked with partners or alone.  Each
+student much upload their own solution in their own words.</p>
+<p>Quizzes are done online, reflect the learning objectives of each lab
+and are assigned to ensure you do the reading with enough depth to
+participate fully in the class worksheets and have the background to
+do the Laboratory Exercises.   There will be a “grace space” policy
+allowing you to miss one quiz.</p>
+<p>The in-class worksheets will be marked for a complete effort. There
+will be a “grace space” policy allowing you to miss one class
+worksheet. In-class worksheets
+are done as a group and are to handed in (one worksheet only per
+group) at the end of the worksheet time.</p>
+<p><strong>The project will be done as a group. The topic of the project should
+be selected from a list provided by the instructors or in consultation
+with the instructors.</strong></p>
+<p>Assignments, quizzes, mini-projects and the project are expected on
+time. Late ones will be marked and then the mark will be multiplied by
+<span class="math notranslate nohighlight">\((0.95)^{\rm (number\ of\ days\ or\ part\ days\ late)}\)</span>.</p>
+</section>
+<section id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Link to this heading">¶</a></h2>
+<p>For each laboratory we give an estimate of number of hours. You will
+need to complete six hours a week to keep up with the course material
+covered in the quizzes.</p>
+<ul class="simple">
+<li><p>Introductory Meeting</p></li>
+<li><p>Laboratory One</p>
+<ul>
+<li><p>Estimate: 8 hours</p></li>
+<li><p>Quiz #1 Objectives <a class="footnote-reference brackets" href="#id16" id="id14" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> pertaining to Lab 1</p></li>
+<li><p>Assignment: See web.</p></li>
+</ul>
+</li>
+<li><p>Laboratory Two</p>
+<ul>
+<li><p>Estimate: 6 hours</p></li>
+<li><p>Quiz #2 Objectives pertaining to Lab 2</p></li>
+<li><p>Assignment: See web.</p></li>
+</ul>
+</li>
+<li><p>Laboratory Three</p>
+<ul>
+<li><p>Estimate: 8 hours</p></li>
+<li><p>Quiz #3 Objectives pertaining to Lab 3</p></li>
+<li><p>Assignment: See web.</p></li>
+</ul>
+</li>
+<li><p>Mini-Project #1</p>
+<ul>
+<li><p>Estimate: 4 hours</p></li>
+<li><p>Details on web.</p></li>
+</ul>
+</li>
+<li><p>Laboratory Four</p>
+<ul>
+<li><p>Estimate: 8 hours</p></li>
+<li><p>Quiz #5 Objectives pertaining to Lab 4</p></li>
+<li><p>Assignment: See web.</p></li>
+</ul>
+</li>
+<li><p>Laboratory Five</p>
+<ul>
+<li><p>Estimate: 6 hours</p></li>
+<li><p>Quiz #6 Objectives pertaining to Lab 5</p></li>
+<li><p>Assignment: See web</p></li>
+</ul>
+</li>
+<li><p>Mini-Project #2</p>
+<ul>
+<li><p>Estimate: 4 hours</p></li>
+<li><p>Details on web.</p></li>
+</ul>
+</li>
+<li><p>Laboratory Seven (do 7 if you have PDE’s)</p>
+<ul>
+<li><p>Estimate: 8 hours</p></li>
+<li><p>Quiz #7-7 Objectives pertaining to Lab</p></li>
+<li><p>Assignment: See web.</p></li>
+</ul>
+</li>
+<li><p>Laboratory Six (do 6 if you do not have PDE’s)</p>
+<ul>
+<li><p>Estimate: 8 hours</p></li>
+<li><p>Quiz #7-6 Objectives pertaining to Lab 6</p></li>
+</ul>
+</li>
+<li><p>Assignment: See web.</p></li>
+<li><p>Project</p>
+<ul>
+<li><p>Estimate: 16 hours</p></li>
+<li><p>Proposal</p></li>
+<li><p>20 minute presentation to the class</p></li>
+<li><p>Project report</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>For due dates etc, please see the Detailed Schedule.</strong></p>
+</section>
+<section id="university-statement-on-values-and-policies">
+<h2>University Statement on Values and Policies<a class="headerlink" href="#university-statement-on-values-and-policies" title="Link to this heading">¶</a></h2>
+<p>UBC provides resources to support student learning and to maintain
+healthy lifestyles but recognizes that sometimes crises arise and so
+there are additional resources to access including those for survivors
+of sexual violence. UBC values respect for the person and ideas of
+all members of the academic community. Harassment and discrimination
+are not tolerated nor is suppression of academic freedom. UBC provides
+appropriate accommodation for students with disabilities and for
+religious and cultural observances. UBC values academic honesty and
+students are expected to acknowledge the ideas generated by others and
+to uphold the highest academic standards in all of their
+actions. Details of the policies and how to access support are
+available here</p>
+<p><a class="reference external" href="https://senate.ubc.ca/policies-resources-support-student-success">https://senate.ubc.ca/policies-resources-support-student-success</a>.</p>
+</section>
+<section id="supporting-diversity-and-inclusions">
+<h2>Supporting Diversity and Inclusions<a class="headerlink" href="#supporting-diversity-and-inclusions" title="Link to this heading">¶</a></h2>
+<p>Atmospheric Science, Oceanography and the Earth Sciences have been
+historically dominated by a small subset of
+privileged people who are predominantly male and white, missing out on
+many influential individuals thoughts and
+experiences. In this course, we would like to create an environment
+that supports a diversity of thoughts, perspectives
+and experiences, and honours your identities. To help accomplish this:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Please let us know your preferred name and/or set of pronouns.</p></li>
+<li><p>If you feel like your performance in our class is impacted by your experiences outside of class, please don’t hesitate to come and talk with us. We want to be a resource for you and to help you succeed.</p></li>
+<li><p>If an approach in class does not work well for you, please talk to any of the teaching team and we will do our best to make adjustments. Your suggestions are encouraged and appreciated.</p></li>
+<li><p>We are all still learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to us about it</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="learning-analytics">
+<h2>Learning Analytics<a class="headerlink" href="#learning-analytics" title="Link to this heading">¶</a></h2>
+<p>Learning analytics includes the collection and analysis of data about learners to improve teaching and learning.  This course will be using Canvas, iPeer, Piazza and potentially Zoom, which capture data about your activity and provide information that can be used to improve the quality of teaching and learning. In this course, we may use analytics data to view overall class progress, and track individual students’ progress in order to assess participation in the course.</p>
+</section>
+<section id="academic-integrity">
+<h2>Academic Integrity<a class="headerlink" href="#academic-integrity" title="Link to this heading">¶</a></h2>
+<p><strong>What is academic integrity?</strong></p>
+<p>The academic enterprise is founded on honesty, civility, and integrity. As members of this enterprise, all students are expected to know, understand, and follow the codes of conduct regarding academic integrity. At the most basic level, this means submitting only original work done by you and acknowledging all sources of information or ideas and attributing them to others as required. This also means you should not cheat, copy, or mislead others about what is your work; nor should you help others to do the same. For example, it is prohibited to: share your past assignments and answers with other students; work with other students on an assignment when an instructor has not expressly given permission; or spread information through word of mouth, social media, websites, or other channels that subverts the fair evaluation of a class exercise, or assessment.</p>
+<p><strong>Why is academic integrity important?</strong></p>
+<p>As a student, your number one task is to learn new things. Just like your professors, however, you are a member of a university scholarly community. As a part of this community, you are responsible for engaging with existing knowledge and contributing ideas of your own. Academics—including you!—build knowledge through rigorous research that expands on the contributions of others, both in the faraway past and around the world today. This is called scholarship. Academic integrity, in short, means being an honest, diligent, and responsible scholar. This includes:</p>
+<ul class="simple">
+<li><p>Accurately reporting the results of your research, e.g., when collecting data in a lab or running a computer simulation</p></li>
+<li><p>Completing assignments independently or acknowledging collaboration when appropriate. Collaboration through group work is an effective way to learn. We will clearly indicate when you should collaborate, for example during in-class group work and on the projects.</p></li>
+<li><p>Creating and expressing your own original ideas.</p></li>
+<li><p>Engaging with the ideas of others, both past and present, in a variety of scholarly platforms such as research journals, books by academics, lectures, etc.</p></li>
+<li><p>Explicitly acknowledging the sources of your knowledge, especially through accurate citation practices.</p></li>
+</ul>
+<p><strong>Collaboration and Group Work</strong></p>
+<p>Many course activities and some assignments are designed to be completed in groups, allowing you to work with your peers. Other assignments are individual, and you are expected to complete these by working individually and writing in your own words. It is unacceptable to have others write assignments on your behalf, to write assignments on others’ behalf, to copy other students’ work, or to allow other students to copy your work.</p>
+<p><strong>What happens when academic integrity is breached?</strong></p>
+<p>Violations of academic integrity (i.e., misconduct) includes any conduct by which a student gains or attempts to gain an unfair academic advantage or benefit thereby compromising the integrity of the academic process, or helping or attempting to help another person commit an act of academic misconduct or gain, or attempt to gain, an unfair academic advantage. Academic misconduct leads to the breakdown of the academic enterprise, and therefore serious consequences arise and harsh sanctions are imposed. For example, incidences of plagiarism or cheating may result in a mark of zero on the assignment and more serious consequences may apply if the matter is referred for consideration for academic discipline. Careful records are kept to monitor and prevent recurrences. Any instance of cheating or taking credit for someone else’s work, whether intentionally or unintentionally, can and often will result in at minimum a grade of zero for the assignment, and these cases will be reported to the Head of the Department of Earth, Ocean and Atmospheric Sciences and Associate Dean Students of the Faculty of Science.</p>
+</section>
+<section id="sharing-course-materials">
+<h2>Sharing Course Materials<a class="headerlink" href="#sharing-course-materials" title="Link to this heading">¶</a></h2>
+<p>The Labs themselves are available on a public website and as a github repository.  You are welcome to return to those web resources, or point your friends to them, at any time, now and into the future.  However, the materials posted on Canvas are for your use, during the course, only. We are working hard to provide all the materials you need to succeed in this course. In return, please respect our work. All assignment instructions, quiz questions and answers, discussion questions, announcements, PowerPoint slides, jupyter notebooks, audio/video recordings, Canvas modules, and any other materials provided to you by us on Canvas are for use in this course by students currently enrolled in ATSC 409 or EOSC 511. It is unacceptable to share any of these materials beyond our course, including by posting on file-sharing websites (e.g., CourseHero, Google Docs). It is unacceptable to copy and paste sentences from the course notes (e.g., definitions) into for-profit software (e.g., Quizlet) for use in studying. Respect our and previous instructors’ intellectual property, and follow copyright law.</p>
+</section>
+<section id="generative-artificial-intelligence-tools">
+<h2>Generative Artificial Intelligence Tools<a class="headerlink" href="#generative-artificial-intelligence-tools" title="Link to this heading">¶</a></h2>
+<p>The term “GenAI” refers to the following tools as well as any other similar models that create content using sophisticated learning algorithms: ChatGPT, Claude, Copilot, Gemini, Llama, DeepSeek, and many translation tools. GenAI also refers to such tools that may be integrated into other services like Notion, Canva, and Grammarly.</p>
+<p>Students are permitted to use artificial intelligence tools, including generative AI, to gather information, review concepts or to help produce projects or mini-projects. However, students are ultimately accountable for the work they submit, and any content generated or supported by an artificial intelligence tool must be cited appropriately.</p>
+<section id="for-the-project-and-miniprojects">
+<h3>For the Project and Miniprojects<a class="headerlink" href="#for-the-project-and-miniprojects" title="Link to this heading">¶</a></h3>
+<p>If you use any GenAI tools at any stage of the project or mini-projects – including for ideas, drafting, editing, or proofreading – you must declare your use. Add an extra page at the end of your submission explaining how you used GenAI, with enough detail for your instructor or TA to understand your contribution. Failure to fully disclose the use of GenAI is considered academic misconduct. Use the APA guidelines (<a class="reference external" href="https://guides.library.ubc.ca/GenAI/cite">https://guides.library.ubc.ca/GenAI/cite</a>) when citing genAI. Failure to properly cite the use of GenAI is considered academic misconduct.</p>
+<p>GenAI and groups/teams: Group work is an important part of this course, however, it introduces additional challenges around GenAI use. Therefore, for the group project, the group must hold a discussion, with all members present, when beginning the work. During this discussion the group must agree on whether, how, and by whom GenAI tools will be used (to be documented in a shared file or email). All group members are expected to then communicate honestly with their group about their own use of GenAI. If it is determined that GenAI was used in a way that violates the assessment’s rules, the entire group may be held responsible.</p>
+</section>
+<section id="for-the-labs-and-in-class-worksheets">
+<h3>For the labs and in-class worksheets<a class="headerlink" href="#for-the-labs-and-in-class-worksheets" title="Link to this heading">¶</a></h3>
+<p>GenAI is Discouraged. The labs and in-class worksheets are important learning opportunities. We do assign marks to encourage you to complete them, but they are not marked “hard’ and do not have many marks attached. We believe you will learn more, and get more practise on your computing skills, if you do not use GenAI.</p>
+</section>
+<section id="extreme-environmental-conditions">
+<h3>Extreme Environmental Conditions<a class="headerlink" href="#extreme-environmental-conditions" title="Link to this heading">¶</a></h3>
+<p>In-person, on campus activities may need to be cancelled due to issues such as weather conditions (e.g. snow). The most up-to-date information about cancellations will be posted on ubc.ca. The uncertainty that comes with extreme weather events can be stressful. Rest assured we will be flexible with assignment deadlines and communicate with you as early as we can. We will try to communicate with you about weather-related class cancellations through Canvas announcements.</p>
+<p>If an in-person class is cancelled due to weather or other environmental conditions, class will be held online. The Zoom link will be posted on Canvas. For those unable to participate in an online class at short notice, we will post the course materials on Canvas.</p>
+</section>
+</section>
+<section id="not-feeling-well-before-class">
+<h2>Not feeling well before class?<a class="headerlink" href="#not-feeling-well-before-class" title="Link to this heading">¶</a></h2>
+<p>What to do if you’re sick: If you’re sick, it’s important that you stay home, no matter what you think
+you may be sick with (e.g., cold, flu, other). If you do miss class because of illness:</p>
+<ul class="simple">
+<li><p>Make a connection early in the term to another student or a group of students in the class. You can</p></li>
+</ul>
+<p>help each other by sharing notes. If you don’t yet know anyone in the class, post on Piazza to connect
+with other students.</p>
+<ul class="simple">
+<li><p>Consult the class resources on this website and on canvas. We will post the materials for each class day.</p></li>
+<li><p>In this class, the marking scheme is intended to provide flexibility so that you can prioritize your health</p></li>
+</ul>
+<p>and are still be able to succeed. As such, there is a “grace space” policy allowing you to miss one in-class worksheet and one
+pre-class quiz with no penalty.</p>
+<ul class="simple">
+<li><p>If you are concerned that you will miss a particular key activity due to illness, contact us to discuss.</p></li>
+</ul>
+<p>If an instructor is sick: we will do our best to stay well, but if either of us is ill, here is what you can
+expect:</p>
+<ul class="simple">
+<li><p>The other instructor will substitute</p></li>
+<li><p>Your TA may help run a class</p></li>
+<li><p>We may have a synchronous online session or two. If this happens, you will receive an email.</p></li>
+</ul>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id15" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>If you have PDE’s Lab 7 is strongly recommended, whereas if you do
+not have PDE’s do Lab 6</p>
+</aside>
+<aside class="footnote brackets" id="id16" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id14">2</a><span class="fn-bracket">]</span></span>
+<p>Objectives is an older term for Learning Goals</p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+      </div>
+    </div>
+  </div>
+      <div class="clearer"></div>
+    </div>
+  
+
+   
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 1995 – present.
+      Last updated on 14-Feb-2026.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    </div> <script src="//www.mozilla.org/tabzilla/media/js/tabzilla.js"></script> 
+  <!-- remove loading of Mozilla tabzilla.js script -->
+
+  </body>
+</html>
