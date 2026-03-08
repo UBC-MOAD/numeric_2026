@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 import matplotlib.cm as cmx
 import matplotlib.colorbar as colorbar
+from matplotlib.patches import Rectangle
 import numpy as np
 
 def initialize(timesteps, lab_example=False):
@@ -12,22 +13,25 @@ def initialize(timesteps, lab_example=False):
     '''
     # below are the parameters that can be varied
     u = 20.
-    domain_length = 86400*20 # so it goes around the domain once in a day
+    domain_length = 86400*u # so it goes around the domain once in a day
     effective_points = 500
     dx = domain_length/effective_points
 
     dt = 0.4 * dx/ u
-    Numpoints = effective_points + 1
+    Numpoints = effective_points - 3
     shift = Numpoints * dx / 2
     c_0 = 1
     alpha = 1 / (150e3)**2
     epsilon = 0.0001
 
     if lab_example:
+        domain_length = 20 # m
+        u = 0.1 # m/s
         Numpoints = 77
-        shift = 7
-        alpha = 0.1
-        dt = 0.9
+        dx = domain_length/(Numpoints + 3)
+        shift = Numpoints * dx / 3
+        alpha = 1.5
+        dt = 0.4 * dx/ u
 
 # create the concentration matrix and initialize it
     cmatrix = np.zeros((timesteps+1, Numpoints+4))
@@ -41,10 +45,10 @@ def initialize(timesteps, lab_example=False):
 def boundary_conditions(cmatrix, time, Numpoints):
     '''Set boundary conditions (double thick so it work for Bott Scheme as well as central and upstream
     '''
-    cmatrix[time, 0] = cmatrix[time, Numpoints-1]
-    cmatrix[time, 1] = cmatrix[time, Numpoints]
-    cmatrix[time, Numpoints+2] = cmatrix[time, 3]
-    cmatrix[time, Numpoints+3] = cmatrix[time, 4]
+    cmatrix[time, 0] = cmatrix[time, Numpoints]
+    cmatrix[time, 1] = cmatrix[time, Numpoints+1]
+    cmatrix[time, Numpoints+2] = cmatrix[time, 2]
+    cmatrix[time, Numpoints+3] = cmatrix[time, 3]
 
     return cmatrix
 
@@ -72,8 +76,9 @@ def step_advect(timesteps, cmatrix, Numpoints, u, dt, dx):
     '''Step algorithm for the Central Scheme'''
     for timecount in range(0, timesteps):
 
-        cmatrix[timecount+1, 1:Numpoints-1]= cmatrix[timecount, 1:Numpoints-1] - (
-            u * dt/(2* dx) * (cmatrix[timecount, 2:Numpoints] - cmatrix[timecount, :Numpoints-2]))
+        cmatrix[timecount+1, 2:Numpoints+2]= cmatrix[timecount, 2:Numpoints+2] - (
+            u * dt/(2* dx) * (cmatrix[timecount, 3:Numpoints+3] 
+                              - cmatrix[timecount, 1:Numpoints+1]))
 
         cmatrix = boundary_conditions(cmatrix, timecount+1, Numpoints)
     return cmatrix
@@ -83,8 +88,9 @@ def step_advect2(timesteps, cmatrix, Numpoints, u, dt, dx):
 
     for timecount in range(0, timesteps):
 
-        cmatrix[timecount+1, 1:Numpoints]= cmatrix[timecount, 1:Numpoints] - (
-            u * dt/ dx * (cmatrix[timecount, 1:Numpoints] - cmatrix[timecount, :Numpoints-1]))
+        cmatrix[timecount+1, 2:Numpoints+2]= cmatrix[timecount, 2:Numpoints+2] - (
+            u * dt/ dx * (cmatrix[timecount, 2:Numpoints+2] 
+                          - cmatrix[timecount, 1:Numpoints+1]))
 
         cmatrix = boundary_conditions(cmatrix, timecount+1, Numpoints)
     return cmatrix
@@ -132,6 +138,38 @@ def step_advect3(timesteps, ltable, cmatrix, order, Numpoints, u, dt, dx, epsilo
 
     return cmatrix
 
+def grey_ghost_points(ax, Numpoints):
+    '''Grey out the ghost points on the plot'''
+    ax.set_ylim(-0.1, 1.1)
+    
+    ybot, ytop = -0.1, 1.1
+    ax.set_ylim(ybot, ytop)
+    
+    width = 2
+    height = ytop - ybot
+
+    xy_coords = (0, ybot)
+    rect = Rectangle(
+        xy_coords,
+        width,
+        height,
+        linewidth=0,
+        facecolor='grey',
+        alpha=0.7,
+    )
+    ax.add_patch(rect)
+    
+    xy_coords = (Numpoints-1+width, ybot)
+    rect = Rectangle(
+        xy_coords,
+        width,
+        height,
+        linewidth=0,
+        facecolor='grey',
+        alpha=0.7,
+    )
+    ax.add_patch(rect)
+
 def make_graph(cmatrix, timesteps, Numpoints, dt):
     """Create graphs of the model results using matplotlib.
     """
@@ -150,14 +188,19 @@ def make_graph(cmatrix, timesteps, Numpoints, dt):
     cNorm_inseconds = colors.Normalize(vmin=0, vmax=1.*timesteps*dt)
     scalarMap = cmx.ScalarMappable(norm=cNorm, cmap=cmap)
 
+    if timesteps > 20:
     # Only try to plot 20 lines, so choose an interval if more than that (i.e. plot every interval lines)
-    plotsteps = (np.arange(0, timesteps, timesteps/20) + timesteps/20).astype(int)
+        plotsteps = (np.arange(0, timesteps, timesteps/20) + timesteps/20).astype(int)
+    else:
+        plotsteps = range(timesteps)
 
     ax.plot(cmatrix[0, :], color='r', linewidth=3)
     # Do the main plot
     for time in plotsteps:
         colorVal = scalarMap.to_rgba(time)
         ax.plot(cmatrix[time, :], color=colorVal)
+
+    grey_ghost_points(ax, Numpoints)
 
     # Add the custom colorbar
     ax2 = fig.add_axes([0.95, 0.05, 0.05, 0.9])
